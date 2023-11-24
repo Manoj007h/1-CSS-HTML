@@ -1,0 +1,114 @@
+.headder{
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  margin-top: 0;
+  justify-content: space-between;
+  z-index: 1;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid ;
+  border-bottom-color: rgb(238, 233, 233);
+}
+.left{
+  display: flex;
+  align-items: center;   
+}
+.hanburger{
+  height: 28px;
+  margin-right: 20px;
+  margin-left: 28px;
+}
+.youtube-logo{
+  height: 25px;
+}
+.mid{
+  display: flex;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 550px;
+  align-items: center;
+}
+.search-bar{
+  height: 33px;
+  flex: 1;
+  padding-left: 10px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgb(224, 219, 219);
+  box-shadow: inset 1px 0.5px 0.3px 0.5px rgba(190, 175, 175, 0.5);
+  width: 0;
+}
+.search-bar::placeholder{
+  font-size: 15px;
+}
+.search-button{
+  height: 30px;
+  width: 44px;
+  border-width: 0.3px; 
+}
+.search-button-class{
+  background-color: rgb(247, 241, 241);
+  border-style: solid;
+  border-width: 0.7px;
+  border-color: rgb(236, 234, 234);
+  margin-left: -1px;
+  margin-top: 1.5px;
+}
+.voice-search-button{
+  height: 22px;
+  width: 23px;
+  border-width: 0.5px;
+  display: flex;
+  margin-right: 2px;
+}
+.voice-search-button-class{
+  margin-left: 9px;
+  border-style: solid;
+  border-color: rgb(231, 231, 231);
+  border-width: 0.5px;
+  border-radius: 50%;
+  height: 30px;
+  width: 35px;
+}
+.right{
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-left: 20px;
+  flex-shrink: 0;
+}
+.upload{
+ height: 30px;
+}
+.youtube-apps{
+ height: 30px;
+}
+.notifications-icon-count{
+ position: relative;
+}
+.notifications-count{
+  position: absolute;
+  top: -2px;
+  right: 0 ;
+  background-color: rgb(214, 16, 16);
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px 2px 6px;
+  border-radius: 10px;
+}
+.notifications{
+ height: 26px;
+}
+.profile{
+  height: 32px;
+  border-radius: 16px;
+}
